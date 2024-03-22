@@ -72,7 +72,7 @@ axios.defaults.withCredentials = true;
 
 
                                     <div className="form-check d-flex justify-content-left mb-4">
-                                        <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" />
+                                        <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" required />
                                         <label className="form-check-label" >
                                             By confirming you agree to our <a href="#!" style={{ textDecoration: 'none' }}>Terms of service</a>
                                         </label>
