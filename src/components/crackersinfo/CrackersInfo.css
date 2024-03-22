@@ -1,0 +1,40 @@
+.crackers-info .row {
+    justify-content: center;
+    background-color: #FFFB00;
+    padding: 2% 10% 2% 10%;
+}
+
+.row .quality {
+    text-align: justify;
+}
+
+.row .delivery {
+    text-align: justify;
+}
+
+.row .eco-friendly {
+    text-align: justify;
+}
+
+.row .payment {
+    text-align: justify;
+}
+
+.crackers-info-img {
+    margin-left: 35%;
+}
+
+.crackers-info-title {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    overflow-y: hidden;
+}
+
+.crackers-info-text {
+    font-size: small;
+    font-weight: bold;
+    overflow-y: hidden;
+}

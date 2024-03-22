@@ -1,0 +1,20 @@
+.paragraph {
+    margin-top: 4%;
+}
+
+.paragraph {
+    padding-bottom: 5%;
+}
+
+.paragraph-title {
+    /* display: flex; */
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.paragraph-text {
+    margin-left: 10%;
+    width: 80%;
+    text-align: justify;
+    overflow-y: hidden;
+}

@@ -1,0 +1,12 @@
+.about-text {
+    color: red;
+    overflow-y: hidden;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+.about-text-bottom {
+    margin-bottom: 5%;
+}

@@ -1,0 +1,86 @@
+/* NAVBAR  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    cursor: pointer;
+    padding: 0% !important;
+}
+
+.container-fluid {
+    background-color: #3b0764 !important;
+    padding: 0.8% !important;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder !important;
+    font-size: x-large !important;
+    color: white !important;
+    margin-left: 3% !important;
+    margin-bottom: 0.3% !important;
+}
+
+.navbar-brand:hover {
+    color: #8294C4 !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: medium !important;
+    margin-top: 1.5% !important; 
+}
+
+.nav-link:hover {
+    color: #8294C4 !important;
+}
+
+.login-button button {
+    outline: none !important;
+    border: 1px solid #71717a;
+}
+
+.login-button button:hover {
+    background: #e2e8f0 !important; 
+}
+
+.icon {
+    font-size: large !important;
+}
+
+.icon:hover {
+    color:white !important;
+    Cursor:text !important; 
+    Text-Decoration: None !important; 
+}
+
+.nav-icon button {
+    outline: none !important;
+    border: 1px solid #71717a;
+    margin-top: 2% !important;
+}
+
+.nav-icon button:hover{
+    background: none;
+}
+
+.nav-cart-count {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: medium !important;
+    color: white !important;
+    text-decoration: none !important; 
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}

@@ -1,0 +1,23 @@
+.discount .card-img {
+    height: 55vh !important;
+}
+
+.discount .card {
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.discount .card-title {
+    overflow-y: hidden;
+}
+
+.discount p {
+    margin-left: 10%;
+    width: 80%;
+    font-size: small;
+}
+
+.discount .card-img-overlay {
+    margin-top: 6.5%;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.text-center {
+    margin-bottom: 5%;
+    overflow-y: hidden;
+}
+
+.combo {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.combo .card {
+    height: 55vh !important;
+    font-size: small;
+    margin: 0% 5% 5% 5%;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.combo .card:hover {
+    background-color: #ffffff;
+    transform: scale(1.01);
+}
+
+.combo .card-img-top {
+    height: 50%;
+}
+
+.combo .card-img {
+    height: 50%;
+}

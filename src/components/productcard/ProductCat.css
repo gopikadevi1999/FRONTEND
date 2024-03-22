@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.product-cards {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+.product-cards .card {
+    height: 60vh !important;
+    font-size: small;
+    margin: 0% 5% 5% 5%;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.product-cards .card:hover {
+    background-color: #eeeeee;
+    transform: scale(1.01);
+}
+
+.product-cards img {
+    height: 50%;
+}
+
+.product-cards .card-text {
+    text-align: justify;
+}
+
+.product-cards .product-title {
+    text-decoration: none;
+}
+
+.product-cards .card-title {
+    overflow-y: hidden;
+}
