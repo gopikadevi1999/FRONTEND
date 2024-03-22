@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Editproduct.css'
-import upload_icon from '../../assets/upload_icon.png'
+import upload_icon from '../assets/upload_icon.png'
 import { toast } from 'react-toastify'
 import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'

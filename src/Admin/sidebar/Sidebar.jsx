@@ -1,8 +1,8 @@
 import React from 'react'
 import './Sidebar.css'
-import product_cart from '../../assets/product-cart.jpeg'
+import product_cart from '../assets/product-cart.jpeg'
 import { Link } from 'react-router-dom'
-import list_product from '../../assets/list_product.png'
+import list_product from '../assets/list_product.png'
 
 
 function Sidebar() {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './AddProduct.css'
-import upload_icon from '../../assets/upload_icon.png'
+import upload_icon from '../assets/upload_icon.png'
 import { toast } from 'react-toastify'
 import Adminbar from '../admintopbar/Adminbar'
 import Sidebar from '../sidebar/Sidebar'
