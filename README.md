@@ -43,7 +43,7 @@ This is a React-based e-commerce website built for selling RSR crackers. The web
     ```
 2. Navigate to the project directory.
     ```bash
-    cd [<project-directory>](https://github.com/gopikadevi1999/FRONTEND)
+    cd [<project-directory>](#https://github.com/gopikadevi1999/FRONTEND)
     ```
 3. Install dependencies using npm.
     ```bash
