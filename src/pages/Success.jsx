@@ -1,28 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import success_img from '../assets/success-tick-dribbble.gif'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import './css/success.css'
 
 function Success() {
   return <>
-  <div className="success-card" 
-  style={{
-    display:'flex',
-    flexDirection: 'column',
-    margin:"auto",
-    border: '1px solid green',
-    borderRadius: '10px',
-    padding: '20px',
-    textAlign: 'center',
-    top:'15%',
-    width: '25%',
-    marginTop: '5%',
-  }}
-  >
-    <h3 style={{color:'green',overflowY: 'hidden',}}>Payment Successful</h3><br />
-    <img src={success_img} alt="" className='rounded-circle' />
-    <p>Thank you for shopping with us. Your order will be delivered soon.</p>
-    <Link to='/' style={{color:'green',overflowY: 'hidden', textDecoration: 'none'}}>Back to Home</Link>
-  </div>
+
+  <Card style={{ width: '18rem', margin: 'auto', marginTop: '5%', border:'1px solid green' }} className="text-center">
+    <Card.Body>
+      <Card.Title style={{color:'green',overflowY: 'hidden',}}>Payment Successful</Card.Title>
+      <Card.Img variant="top" src={success_img} />
+      <Card.Text>
+        Thank you for shopping with us. Your order will be delivered soon.
+      </Card.Text>
+      <Link to='/'><Button variant="outline-success" className='success-button' style={{color:'green'}} >Back to Home</Button></Link>
+    </Card.Body>
+  </Card>
   </>
 }
 
