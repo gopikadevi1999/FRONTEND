@@ -80,7 +80,7 @@ function Signup() {
                                 </div>
                                 <div>
                                     <p className="mb-0 mt-0" style={{ marginBottom: '10px' }}>Already have an account?
-                                        <Link to="/login" className="text-white-50 fw-bold" style={{ textDecoration: 'none' }} >Login</Link>
+                                        <Link to="/login" className="text-white-50 fw-bold" style={{ textDecoration: 'none', color: 'white' }} >Login</Link>
                                     </p>
                                 </div>
                             </div>
