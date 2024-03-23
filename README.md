@@ -1,4 +1,3 @@
-
 RSR Crackers E-Commerce Website
 Welcome to the RSR Crackers E-Commerce Website! This platform is designed to provide users with a convenient way to purchase fireworks and crackers for various occasions. Below you'll find information on how to set up and run the website, as well as details about its features and technologies used.
 
