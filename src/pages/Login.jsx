@@ -82,7 +82,7 @@ axios.defaults.withCredentials = true;
                                 </div>
                                 <div>
                                     <p className="mb-0 mt-0" style={{ marginBottom: '10px' }}>Don't have an account?
-                                        <Link to="/signup" className="text-white-50 fw-bold" style={{ textDecoration: 'none', color: 'white' }} >Sign Up</Link>
+                                        <Link to="/signup" className="text" style={{ textDecoration: 'none', color: 'blue' }} >Sign Up</Link>
                                     </p>
                                 </div>
                             </div>
