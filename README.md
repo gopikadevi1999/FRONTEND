@@ -39,11 +39,11 @@ This is a React-based e-commerce website built for selling RSR crackers. The web
 ## Setup
 1. Clone the repository to your local machine.
     ```bash
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/gopikadevi1999?tab=repositories)
     ```
 2. Navigate to the project directory.
     ```bash
-    cd [<project-directory>](#https://github.com/gopikadevi1999/FRONTEND)
+    cd  https://github.com/gopikadevi1999/FRONTEND
     ```
 3. Install dependencies using npm.
     ```bash
