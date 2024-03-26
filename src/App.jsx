@@ -14,9 +14,6 @@ import { toast } from 'react-toastify'
 import Success from './pages/Success'
 import Cancel from './pages/Cancel'
 import '@stripe/stripe-js'
-import AddProduct from './Admin/addproduct/AddProduct'
-import ListProduct from './Admin/listproduct/ListProduct'
-import EditProduct from './Admin/editproduct/EditProduct'
 
 
 function App() {
@@ -125,9 +122,6 @@ const addToCart = (product) => {
         <Route path='/resetpassword/:token' element={<ResetPassword />} />
         <Route path='/success' element={<Success />} />
         <Route path='/cancel' element={<Cancel />} />
-        <Route path="/addproduct" element={<AddProduct />} />
-        <Route path="/listproduct" element={<ListProduct />} />
-        <Route path="/editproduct/:id" element={<EditProduct />} />
         <Route path='/*' element={<Navigate to='/' />} />
       </Routes>
     </BrowserRouter>
