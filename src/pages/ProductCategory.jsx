@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import './css/ProductCategory.css'
 import Topbar from '../components/topbar/Topbar'
 import Footer from '../components/footer/Footer'
-import { FaIndianRupeeSign } from 'react-icons/fa6'
+// import { BiDollar  } from 'react-icons/fa6'
+import { BiDollar } from "react-icons/bi";
 import { AiOutlineClose } from 'react-icons/ai'
 
 function ProductCategory({ product, Filter, addToCart}) {
@@ -40,8 +41,8 @@ function ProductCategory({ product, Filter, addToCart}) {
               <p style={{ fontSize: '12px' }}>We are all like fireworks. We climb, shine and always go our separate ways and become further apart.
                 But even if that time comes, let's not disappear like a firework, and continue to shine... forever.</p>
               <h5 style={{ overflowY: 'hidden', textDecoration: 'line-through', color: 'gray' }}>
-                <FaIndianRupeeSign style={{ textDecoration: 'line-through', fontSize: '16px', color: 'gray' }} />&nbsp;{detail.price}</h5>
-              <h5 style={{ overflowY: 'hidden' }}><FaIndianRupeeSign style={{ fontSize: '16px' }} />&nbsp;{detail.discount}</h5>
+                <BiDollar  style={{ textDecoration: 'line-through', fontSize: '16px', color: 'gray' }} />&nbsp;{detail.price}</h5>
+              <h5 style={{ overflowY: 'hidden' }}><BiDollar  style={{ fontSize: '16px' }} />&nbsp;{detail.discount}</h5>
               <button className='btn btn-danger' onClick={() => addToCart(detail)}>Add To Cart</button>
             </div>
           </div>
@@ -88,10 +89,10 @@ function ProductCategory({ product, Filter, addToCart}) {
                     <img src={allProduct.image} className="card-img-top" alt="..." onClick={() => detailpage(allProduct)} />
                     <div className="card-body">
                       <h5 className="card-name">{allProduct.name}</h5>
-                      <p className="card-price"><i className="fa-solid fa-indian-rupee-sign"
+                      <p className="card-price"><i className="fa-solid fa-dollar-sign"
                         style={{ color: 'gray', textDecoration: 'line-through' }}>
                         &nbsp;{allProduct.price}</i></p>
-                      <p className="card-discount" style={{fontSize:'24px'}}><i className="fa-solid fa-indian-rupee-sign">&nbsp;{allProduct.discount}/-</i></p>
+                      <p className="card-discount" style={{fontSize:'24px'}}><i className="fa-solid fa-dollar-sign">&nbsp;{allProduct.discount}/-</i></p>
                       <button className='btn btn-warning' onClick={() => addToCart(allProduct)} >Add To Cart</button>
                     </div>
                   </div>

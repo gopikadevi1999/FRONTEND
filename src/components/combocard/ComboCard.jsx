@@ -13,7 +13,7 @@ function ComboCard({comboCard}) {
                 <img src={comboCard.image} className="card-img-top" alt="..." onClick={() => navigate('/productcategory')} />
                 <div className="card-body">
                     <h5 className="card-title text-center" onClick={() => navigate('/productcategory')}>{comboCard.name} <br /><br />
-                        <i className="fa-solid fa-indian-rupee-sign">&nbsp;{comboCard.price}</i><br /><br />
+                        <i className="fa-solid fa-dollar-sign">&nbsp;{comboCard.price}</i><br /><br />
                         <a className="btn btn-primary" onClick={() => navigate('/combos')}> Read More </a>
                     </h5>
                 </div>

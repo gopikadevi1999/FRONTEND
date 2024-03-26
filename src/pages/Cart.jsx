@@ -122,7 +122,7 @@ function Cart({ cart, setCart }) {
                       <div className="col-lg-5 col-md-6 mb-4 mb-lg-0">
                         <p><strong>{allProduct.name}</strong></p>
                         <p>{allProduct.category}</p>
-                        <p><i className="fa-solid fa-indian-rupee-sign">&nbsp;&nbsp;{allProduct.discount}</i></p>
+                        <p><i className="fa-solid fa-dollar-sign">&nbsp;&nbsp;{allProduct.discount}</i></p>
                         <button type="button" className="btn btn-danger btn-sm me-1 mb-2" data-mdb-toggle="tooltip" title="Remove item"
                           onClick={() => removeProduct(allProduct)}><i className="fas fa-trash"></i>
                         </button>
@@ -135,7 +135,7 @@ function Cart({ cart, setCart }) {
                           </div>
                           <button className="btn btn-primary px-3 ms-2" onClick={() => incqty(allProduct)}><i className="fas fa-plus"></i></button>
                         </div>
-                        <p className="text-start text-md-center"><strong><i className='fa-solid fa-indian-rupee-sign'>&nbsp;{allProduct.discount * allProduct.qty}</i></strong></p>
+                        <p className="text-start text-md-center"><strong><i className='fa-solid fa-dollar-sign'>&nbsp;{allProduct.discount * allProduct.qty}</i></strong></p>
                       </div>
                       <hr className="my-4" />
                     </div>
@@ -153,9 +153,9 @@ function Cart({ cart, setCart }) {
               <div className="card-body">
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-                    SubTotal <span><i className='fa-solid fa-indian-rupee-sign'>&nbsp;{total}</i></span></li>
+                    SubTotal <span><i className='fa-solid fa-dollar-sign'>&nbsp;{total}</i></span></li>
                   <li className="list-group-item d-flex justify-content-between align-items-center px-0">
-                    Shipping <span><i className='fa-solid fa-indian-rupee-sign'>&nbsp;200.00</i></span></li>
+                    Shipping <span><i className='fa-solid fa-dollar-sign'>&nbsp;200.00</i></span></li>
                   <li className="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
                     <div>
                       <strong>Total amount</strong>
@@ -163,7 +163,7 @@ function Cart({ cart, setCart }) {
                         <p className="mb-0">(including VAT)</p>
                       </strong>
                     </div>
-                    <span><strong><i className='fa-solid fa-indian-rupee-sign'>&nbsp;{total + 200}</i></strong></span>
+                    <span><strong><i className='fa-solid fa-dollar-sign'>&nbsp;{total + 200}</i></strong></span>
                   </li>
                 </ul>
 
